@@ -1,0 +1,70 @@
+/* Hero Section */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 613px; */
+    width: 80%;
+    margin: 20px auto;
+}
+.hero-content{
+    width: 595px;
+    /* height: 613px; */
+}
+.hero-content h1{
+    font-family: var(--fontFamily);
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 102px;
+    height: 306px;
+    width: 595px;
+}
+.hero-content .description{
+    width: 404px;
+    height: 91px;
+    margin: 36px auto 0 auto;
+    font-weight: 600;
+    font-family: var(--fontFamily);
+    color: #5A5959;
+}
+.btn-div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+    margin: 36px 0;
+}
+.btn{
+    width: 109px;
+    height: 35px;
+    /* padding: 6px 16px 8px 16px; */
+    font-family: var(--fontFamily);
+}
+
+.white-btn{
+    background-color: white;
+    color: #5A5959;
+    border: 1px solid #5A5959;
+}
+.availability{
+    margin-bottom: 15px;
+    font-family: var(--fontFamily);
+    color: #5A5959;
+}
+
+/* Hero Image */
+.hero-img{
+    height: 487px;
+    width: 530px;
+}
+.hero-img img{
+    width: 100%;
+}
+.ecom-logo{
+    width: 140px;
+    margin: auto;
+}
+.ecom-logo img{
+    margin-right: 20px;
+}
